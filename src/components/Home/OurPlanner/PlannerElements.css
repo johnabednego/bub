@@ -1,0 +1,45 @@
+.container__planner {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.planner__dets-header {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+
+.planner__dets-header img {
+  width: 6px;
+  height: 49px;
+}
+
+.planner__dets-header h1 {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 40px;
+  color: var(--color-black);
+}
+
+.planner__img {
+  width: 45%;
+  height: 45%;
+}
+
+.planner__dets p {
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.planner__dets button {
+  margin-top: 1.5rem;
+  padding: 12px 18px;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  font-size: 20px;
+  font-weight: 500;
+}

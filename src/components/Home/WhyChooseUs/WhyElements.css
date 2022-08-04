@@ -1,0 +1,89 @@
+.container__why {
+  background-color: var(--color-primary);
+  box-sizing: border-box;
+  padding: 4rem 0 7rem;
+}
+
+.applyflex {
+  display: flex;
+  gap: 10%;
+}
+
+.container__why-main {
+  width: 50%;
+}
+
+.why-main__header {
+  display: flex;
+  gap: 3%;
+  align-items: center;
+}
+
+.why-main__header img {
+  width: 6px;
+  height: 49px;
+}
+
+.why-main__header h1 {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 40px;
+  color: var(--color-white);
+}
+
+.container__why-main p {
+  color: var(--color-white);
+  margin-top: 0.8rem;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: start;
+}
+
+.container__why-dets {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10%;
+  grid-row-gap: 15%;
+  width: 100%;
+}
+
+.why-dets__sub1,
+.why-dets__sub2,
+.why-dets__sub3,
+.why-dets__sub4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-dets__sub1 img,
+.why-dets__sub2 img,
+.why-dets__sub3 img,
+.why-dets__sub4 img {
+  width: 60px;
+  height: 60px;
+}
+
+.why-dets__sub1 h3,
+.why-dets__sub2 h3,
+.why-dets__sub3 h3,
+.why-dets__sub4 h3 {
+  color: var(--color-white);
+  font-weight: 600;
+  margin-top: 0.5rem;
+  letter-spacing: 1pxw;
+}
+
+.why-dets__sub1 p,
+.why-dets__sub2 p,
+.why-dets__sub3 p,
+.why-dets__sub4 p {
+  color: var(--color-white);
+  font-weight: 300;
+  font-size: 18px;
+  width: 90%;
+  margin-top: 0.2rem;
+  word-spacing: -2px;
+  text-align: center;
+}
